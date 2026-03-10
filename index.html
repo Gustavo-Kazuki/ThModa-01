@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TH Moda - Moda Casual Moderna</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="description"
+        content="Loja online TH Moda com roupas casuais modernas, estilo premium e design minimalista.">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="container nav-content">
+            <a href="/" class="logo" data-link>TH MODA</a>
+
+            <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+            </label>
+
+            <nav class="nav-links">
+                <a href="/" data-link>Início</a>
+                <a href="/products" data-link>Produtos</a>
+                <a href="/about" data-link>Sobre Nós</a>
+                <a href="/contact" data-link>Contato</a>
+            </nav>
+            <div class="nav-icons">
+                <a href="/cart" data-link class="cart-icon" id="cart-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="8" cy="21" r="1" />
+                        <circle cx="19" cy="21" r="1" />
+                        <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12" />
+                    </svg>
+                    <span id="cart-counter" class="cart-counter" style="display: none;">0</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main id="app-root" style="min-height: calc(100vh - 200px);"></main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-section">
+                <h3>TH Moda Casual Moderna</h3>
+                <p>Moda casual premium com design moderno.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Links Rápidos</h3>
+                <a href="/" data-link>Início</a>
+                <a href="/products" data-link>Produtos</a>
+                <a href="/contact" data-link>Contato</a>
+            </div>
+            <div class="footer-section">
+                <h3>Políticas</h3>
+                <a href="/privacy" data-link>Política de Privacidade</a>
+                <a href="/terms" data-link>Termos de Uso</a>
+                <a href="/returns" data-link>Política de Troca e Devolução</a>
+                <a href="/shipping" data-link>Política de Entrega</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 TH Moda. Todos os direitos reservados.</p>
+
+            <div class="legal-details" style="margin-top: 20px; font-size: 0.85em; opacity: 0.8; line-height: 1.6;">
+                <p>Empresa: TH MODA<br>
+                    CNPJ: 47.635.109/0001-69</p>
+
+                <p style="margin-top: 10px;">Endereço: Rua Edgar Barbosa dos Anjos, 38 – Recife, PE<br>
+                    CEP: 52090-605</p>
+
+                <p style="margin-top: 10px;">Telefone: (81) 9929-2908<br>
+                    Email: contato@thmoda.com.br</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
