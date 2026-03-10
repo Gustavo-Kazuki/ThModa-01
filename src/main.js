@@ -3,7 +3,7 @@ import './style.css';
 // Pages Template Strings
 const pages = {
     '/': `
-        <section class="hero" style="background-image: url('/images/hero.png');">
+        <section class="hero" style="background-image: url('/images/hero.png'); background-position: center top;">
             <div class="hero-content container">
                 <h1>Estilo Moderno para Pessoas Confiantes</h1>
                 <p>Moda casual premium com design moderno.</p>
