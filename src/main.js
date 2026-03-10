@@ -214,19 +214,6 @@ const pages = {
     `
 };
 
-const productsData = {
-    '1': { name: "Camiseta Básica Masculina", price: "R$ 47,00", img: "/images/tshirt.png", desc: "Uma camiseta preta com caimento perfeito, feita 100% de algodão premium.", details: "<ul><li>100% Algodão</li><li>Ajuste Clássico</li><li>Lavável à Máquina</li></ul>" },
-    '2': { name: "Camisa Casual Masculina", price: "R$ 89,00", img: "/images/shirt.png", desc: "Camisa preta de botões elegante com detalhes de alta qualidade em dourado na gola.", details: "<ul><li>Ajuste Slim</li><li>Detalhes de Costura Dourada</li><li>Mistura de Tecidos Premium</li></ul>" },
-    '3': { name: "Vestido Elegante Feminino", price: "R$ 120,00", img: "/images/dress.png", desc: "Um vestido preto minimalista e bem estruturado, perfeito para todas as ocasiões.", details: "<ul><li>Silhueta Linha A</li><li>Zíper Oculto</li><li>Tecido com Elastano</li></ul>" },
-    '4': { name: "Jeans Denim Premium", price: "R$ 95,00", img: "/images/jeans.png", desc: "Jeans escuro afiado e confortável com construção robusta e ajuste sob medida.", details: "<ul><li>Perna Reta</li><li>Estilo 5 Bolsos</li><li>Denim Durável</li></ul>" },
-    '5': { name: "Jaqueta Casual Masculina", price: "R$ 150,00", img: "/images/jacket.png", desc: "Jaqueta casual masculina versátil com vários bolsos utilitários.", details: "<ul><li>Resistente ao Clima</li><li>Múltiplos Bolsos</li><li>Isolamento Leve</li></ul>" },
-    '6': { name: "Tênis Moderno", price: "R$ 110,00", img: "/images/sneakers.png", desc: "Tênis preto elegante com destaques dourados ousados e máximo conforto.", details: "<ul><li>Malha Respirável</li><li>Sola Amortecida</li><li>Detalhes em Dourado</li></ul>" },
-    '7': { name: "Moletom Premium Moderno", price: "R$ 149,00", img: "/images/moletom_masculino.png", desc: "Moletom preto minimalista, confeccionado com tecido felpado super macio para um visual urbano elegante.", details: "<ul><li>Algodão Felpado</li><li>Capuz Ajustável</li><li>Bolso Canguru</li></ul>" },
-    '8': { name: "Camisa Polo Elegante", price: "R$ 79,00", img: "/images/polo_masculina.png", desc: "Camisa polo premium com caimento ajustado e detalhes refinados no colarinho.", details: "<ul><li>Piquet de Algodão</li><li>Ajuste Casual Slim</li><li>Botões Exclusivos</li></ul>" },
-    '9': { name: "Bermuda Sarja Moderna", price: "R$ 85,00", img: "/images/bermuda_sarja.png", desc: "Bermuda de sarja com tom escuro premium. Proporciona versatilidade e charme aos visuais descontraídos.", details: "<ul><li>Tecido de Sarja</li><li>Corte Reto</li><li>Bolsos Funcionais</li></ul>" },
-    '10': { name: "Cinto de Couro Fino", price: "R$ 55,00", img: "/images/cinto_couro.png", desc: "Acessório essencial com acabamento de alta qualidade em couro e fivela metálica moderna.", details: "<ul><li>Couro Legítimo</li><li>Fivela Metálica</li><li>Acabamento Premium</li></ul>" }
-};
-
 function renderProductPage(id) {
     const product = productsData[id];
     if (!product) return '<h2>Produto não encontrado</h2>';
