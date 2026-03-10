@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://thmoda.com.br/sitemap.xml
